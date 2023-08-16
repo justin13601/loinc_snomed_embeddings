@@ -1,2 +1,2 @@
-# loinc
-LOINC Code Descriptions &amp; Embeddings
+# Embeddings for LOINC & SNOMED CT Codes and Descriptions
+
