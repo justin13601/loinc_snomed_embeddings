@@ -1,0 +1,101 @@
+itemid,label,fluid,category,count,loinc_code
+51221,Hematocrit,Blood,Hematology,881764,4544-3
+50971,Potassium,Blood,Chemistry,845737,2823-3
+50983,Sodium,Blood,Chemistry,808401,2951-2
+50912,Creatinine,Blood,Chemistry,797389,2160-0
+50902,Chloride,Blood,Chemistry,795480,2075-0
+51006,Urea Nitrogen,Blood,Chemistry,791838,3094-0
+50882,Bicarbonate,Blood,Chemistry,780648,1963-8
+51265,Platelet Count,Blood,Hematology,778365,777-3
+50868,Anion Gap,Blood,Chemistry,769810,1863-0
+51301,White Blood Cells,Blood,Hematology,753221,804-5
+51222,Hemoglobin,Blood,Hematology,752444,718-7
+50931,Glucose,Blood,Chemistry,748896,2345-7
+51249,MCHC,Blood,Hematology,748147,786-4
+51279,Red Blood Cells,Blood,Hematology,747999,789-8
+51248,MCH,Blood,Hematology,747994,785-6
+51250,MCV,Blood,Hematology,747977,787-2
+51277,RDW,Blood,Hematology,746817,788-0
+50960,Magnesium,Blood,Chemistry,664123,2601-3
+50893,"Calcium, Total",Blood,Chemistry,591932,2000-8
+50970,Phosphate,Blood,Chemistry,590502,2777-1
+50820,pH,Blood,Blood Gas,530752,11558-4
+50802,Base Excess,Blood,Blood Gas,490651,11555-0
+50804,Calculated Total CO2,Blood,Blood Gas,490641,34728-6
+50821,pO2,Blood,Blood Gas,490628,11556-8
+50818,pCO2,Blood,Blood Gas,490594,11557-6
+51275,PTT,Blood,Hematology,474930,3173-2
+51237,INR(PT),Blood,Hematology,471176,5895-7
+51274,PT,Blood,Hematology,469083,5902-2
+50808,Free Calcium,Blood,Blood Gas,249110,1994-3
+50885,"Bilirubin, Total",Blood,Chemistry,238263,1975-2
+50861,Alanine Aminotransferase (ALT),Blood,Chemistry,219462,1742-6
+50878,Asparate Aminotransferase (AST),Blood,Chemistry,219452,1920-8
+50863,Alkaline Phosphatase,Blood,Chemistry,207847,6768-6
+50809,Glucose,Blood,Blood Gas,196736,2339-0
+50822,"Potassium, Whole Blood",Blood,Blood Gas,192949,6298-4
+50813,Lactate,Blood,Blood Gas,187116,32693-4
+50817,Oxygen Saturation,Blood,Blood Gas,173418,20564-1
+51244,Lymphocytes,Blood,Hematology,172131,731-0
+51256,Neutrophils,Blood,Hematology,172131,761-7
+51254,Monocytes,Blood,Hematology,172130,742-7
+51200,Eosinophils,Blood,Hematology,172126,711-2
+51146,Basophils,Blood,Hematology,172124,704-7
+50862,Albumin,Blood,Chemistry,146694,1751-7
+50910,Creatine Kinase (CK),Blood,Chemistry,132400,2157-6
+50816,Oxygen,Blood,Blood Gas,127960,19994-3
+51491,pH,Urine,Hematology,116081,5803-2
+51498,Specific Gravity,Urine,Hematology,115858,5811-5
+50911,"Creatine Kinase, MB Isoenzyme",Blood,Chemistry,115802,6773-6
+50954,Lactate Dehydrogenase (LD),Blood,Chemistry,107120,2532-0
+51492,Protein,Urine,Hematology,106412,5804-0
+51514,Urobilinogen,Urine,Hematology,101817,5818-0
+51484,Ketone,Urine,Hematology,101624,5797-6
+51478,Glucose,Urine,Hematology,101280,5792-7
+51508,Urine Color,Urine,Hematology,100377,5778-6
+51506,Urine Appearance,Urine,Hematology,99838,5767-9
+51466,Blood,Urine,Hematology,99726,5794-3
+51464,Bilirubin,Urine,Hematology,99680,5770-3
+51487,Nitrite,Urine,Hematology,99675,5802-4
+51486,Leukocytes,Urine,Hematology,97625,5799-2
+50810,"Hematocrit, Calculated",Blood,Blood Gas,89715,20570-8
+50811,Hemoglobin,Blood,Blood Gas,89712,718-7
+51003,Troponin T,Blood,Chemistry,87238,6598-7
+50819,PEEP,Blood,Blood Gas,86911,20077-4
+51519,Yeast,Urine,Hematology,85457,5822-2
+51516,WBC,Urine,Hematology,84682,5821-4
+51493,RBC,Urine,Hematology,84278,5808-1
+50826,Tidal Volume,Blood,Blood Gas,83805,20112-9
+51476,Epithelial Cells,Urine,Hematology,83200,5787-7
+51144,Bands,Blood,Hematology,75587,763-3
+51463,Bacteria,Urine,Hematology,73412,5769-5
+50824,"Sodium, Whole Blood",Blood,Blood Gas,71504,2947-0
+50956,Lipase,Blood,Chemistry,65373,3040-3
+50867,Amylase,Blood,Chemistry,63664,1798-8
+50920,Estimated GFR (MDRD equation),Blood,Chemistry,63253,33914-3
+51233,Hypochromia,Blood,Hematology,61634,728-6
+51137,Anisocytosis,Blood,Hematology,61381,702-1
+51246,Macrocytes,Blood,Hematology,60837,738-5
+51143,Atypical Lymphocytes,Blood,Hematology,59334,733-6
+51251,Metamyelocytes,Blood,Hematology,59206,28541-1
+51255,Myelocytes,Blood,Hematology,59158,26498-6
+51252,Microcytes,Blood,Hematology,58059,741-9
+51267,Poikilocytosis,Blood,Hematology,55886,779-9
+51009,Vancomycin,Blood,Chemistry,54728,20578-1
+50806,"Chloride, Whole Blood",Blood,Blood Gas,48188,2069-3
+51268,Polychromasia,Blood,Hematology,47280,10378-8
+51087,Length of Urine Collection,Urine,Chemistry,46834,13362-9
+51214,"Fibrinogen, Functional",Blood,Hematology,45935,3255-7
+50883,"Bilirubin, Direct",Blood,Chemistry,45205,1968-7
+50884,"Bilirubin, Indirect",Blood,Chemistry,44385,1971-1
+51266,Platelet Smear,Blood,Hematology,44151,778-1
+51082,"Creatinine, Urine",Urine,Chemistry,33062,2161-8
+50993,Thyroid Stimulating Hormone,Blood,Chemistry,28220,3016-3
+51100,"Sodium, Urine",Urine,Chemistry,25990,2955-3
+51000,Triglycerides,Blood,Chemistry,24987,1644-4
+51218,Granulocyte Count,Blood,Hematology,24375,30394-1
+50908,CK-MB Index,Blood,Chemistry,22911,20569-0
+50967,Phenytoin,Blood,Chemistry,22453,3967-7
+50801,Alveolar-arterial Gradient,Blood,Blood Gas,22016,19991-9
+50907,"Cholesterol, Total",Blood,Chemistry,19444,2093-3
+51093,"Osmolality, Urine",Urine,Chemistry,18838,2695-5
