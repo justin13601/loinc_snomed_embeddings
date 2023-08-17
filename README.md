@@ -24,18 +24,26 @@ All embeddings for the descriptions and code labels were generated using the ADA
 
 ## MIMIC-IV Annotation Validation Experiment
 
-A set of the top 100 lab items by occurrence from the MIMIC-IV dataset was compiled and used as a validation experiement. Each item was annotated using [AnnoDash](https://github.com/justin13601/AnnoDash) and other supporting resources - these are used as the ground truths.
+A set of the top 100 lab items by occurrence from the MIMIC-IV dataset was compiled and used as a validation experiement. Each item was annotated with a LOINC code using [AnnoDash](https://github.com/justin13601/AnnoDash) and other supporting resources - these are used as the ground truths. Nine items were filtered out due to not having a an appropriate LOINC code. 
 
-Embeddings were then generated for labels and descriptions of each of the items. Subsequently, cosine similarity was computed between each of these embeddings and the embeddings of each LOINC code description and sorted by its score. The position of the ground truths are as follows:
+Embeddings were then generated for labels and descriptions of each of the items. Subsequently, cosine similarity was computed between each of these embeddings and the embeddings of each LOINC code description and sorted by its score. The position of the ground truths are summarized below.
 
-| itemid   | LOINC_NUM | rank |
-|----------|-----------|------|
-|   ddd       |           |      |
-|          |           |      |
-|          |           |      |
+With an automatic annotator using out-of-the-box cosine similarity:
+ - The ground truths for 16/91 (17.6%) items were in the top-1 position (ie. perfect match).
+ - The ground truths for 33/91 (36.3%) items were within the top-3 positions.
+ - The ground truths for 43/91 (47.3%) items were within the top-5 positions.
+ - The ground truths for 63/91 (69.2%) items were within the top-10 positions.
 
- With an automatic annotator using out-of-the-box cosine similarity:
- - 
+<table>
+  <tr>
+    <td>
+      <img src="plot1.png" alt="Overall summary of rankings.">
+    </td>
+    <td>
+      <img src="plot2.png" alt="Summary of items with ground truths within the top 10 of rankings.">
+    </td>
+  </tr>
+</table>
 
 The top 100 chart items by occurrence were also compiled and manually mapped to SNOMED CT codes. The same protocol as above was applied. Results are pending... 
 
