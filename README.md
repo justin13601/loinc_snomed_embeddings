@@ -29,10 +29,10 @@ A set of the top 100 lab items by occurrence from the MIMIC-IV dataset was compi
 Embeddings were then generated for labels and descriptions of each of the items. Subsequently, cosine similarity was computed between each of these embeddings and the embeddings of each LOINC code description and sorted by its score. The position of the ground truths are summarized below.
 
 With an automatic annotator using out-of-the-box cosine similarity:
- - The ground truths for 16/91 (17.6%) items were in the top-1 position (ie. perfect match).
- - The ground truths for 33/91 (36.3%) items were within the top-3 positions.
- - The ground truths for 43/91 (47.3%) items were within the top-5 positions.
- - The ground truths for 63/91 (69.2%) items were within the top-10 positions.
+ - The ground truths for 16/91 (17.6%) lab items were in the top-1 position (ie. perfect match).
+ - The ground truths for 33/91 (36.3%) lab items were within the top-3 positions.
+ - The ground truths for 43/91 (47.3%) lab items were within the top-5 positions.
+ - The ground truths for 63/91 (69.2%) lab items were within the top-10 positions.
 
 <table>
   <tr>
