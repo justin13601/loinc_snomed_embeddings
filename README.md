@@ -24,16 +24,22 @@ All embeddings for the descriptions and code labels were generated using the ADA
 
 ## MIMIC-IV Annotation Validation Experiment
 
-A set of the top 100 lab items by occurrence from the MIMIC-IV dataset.
+A set of the top 100 lab items by occurrence from the MIMIC-IV dataset was compiled and used as a validation experiement. Each item was annotated using [AnnoDash](https://github.com/justin13601/AnnoDash) and other supporting resources - these are used as the ground truths.
+
+Embeddings were then generated for labels and descriptions of each of the items. Subsequently, cosine similarity was computed between each of these embeddings and the embeddings of each LOINC code description and sorted by its score. The position of the ground truths are as follows:
 
 | itemid   | LOINC_NUM | rank |
 |----------|-----------|------|
-|          |           |      |
+|   ddd       |           |      |
 |          |           |      |
 |          |           |      |
 
+ With an automatic annotator using out-of-the-box cosine similarity:
+ - 
 
-Similarly, the top 100 chart items by occurrence were compiled and manually mapped to SNOMED CT codes. 
+The top 100 chart items by occurrence were also compiled and manually mapped to SNOMED CT codes. The same protocol as above was applied. Results are pending... 
+
+The above results can be used as a benchmark for further testing using embeddings.
 
 ## Citations
 
