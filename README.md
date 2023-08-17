@@ -4,10 +4,13 @@ This repository contains data and embeddings for SNOMED and LOINC ontology codes
 
 **Citation for SNOMED Descriptions:**
 ```
-@misc{remy-and-demeester-2023-glossary,
-title = "Automatic Glossary of Clinical Terminology: a Large-Scale Dictionary of Biomedical Definitions Generated from Ontological Knowledge",
-author = "Remy, François and Demeester, Thomas",
-year = 2023
+@misc{remy2023automatic,
+      title={Automatic Glossary of Clinical Terminology: a Large-Scale Dictionary of Biomedical Definitions Generated from Ontological Knowledge}, 
+      author={François Remy and Thomas Demeester},
+      year={2023},
+      eprint={2306.00665},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
 
@@ -30,25 +33,3 @@ The paper appeared at ACL BioNLP 2023.
 For the use of OpenAI's ADAv2 model for generating embeddings, please follow OpenAI's citation guidelines, which can be found on the OpenAI website.
 
 Please note that access to the dataset and model may require appropriate permissions and adherence to the associated licenses.
-
-Feel free to explore the dataset, embeddings, and utilize them for various research and applications related to clinical terminology and ontology codes. If you have any questions or need further assistance, don't hesitate to reach out!
-
-
-https://arxiv.org/abs/2306.00665
-https://huggingface.co/datasets/FremyCompany/AGCT-Dataset
-
-I found the following facts about _______ in SNOMED CT:
-- is a _______
-- _______ -> _______
-- _______ -> _______
-
-Based on this, write a short description of _______.
-
-----------
-
-I found the following facts about cat scratch disease in SNOMED CT:
-- is a Bartonellosis
-- Pathological process -> Infection process
-- Causative agent -> Genus Bartonella
-
-Based on this, write a short description of CSD.
